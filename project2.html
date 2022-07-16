@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 4</title>
+    <!-- internal css -->
+    <style>
+        h1{
+            color: red;
+            background-color: black;
+            font-size: 40px;
+         
+        }
+    </style>
+    
+    <style>
+        span{
+            color: brown;
+            background-color: white;
+        }
+    </style>
+
+   <!--- external css-->
+    <link rel="stylesheet" href="palmur.css">
+     
+</head>
+<body>
+    <main>
+        <center><h1
+        >Personal information</h1></center>
+      <center>
+       <form action="niraj.html">
+           <label style="font-size: 30px; color: rebeccapurple;"  for="name">Name</label>
+           <div>
+               <input type="text" name="myname" id="name"   style="font-size: 30px;">
+           </div>
+           <br>
+           
+
+          <label style="font-size: 30px; color: black;" for="crn">CRN number</label> 
+           <div>
+               <input type="number"  num="mynumber" id="crn" style="font-size: 30px;">
+           </div>
+           <br>
+            
+           <label style="font-size: 30px; color: chocolate;" for="mybranch">branch</label> 
+           <div>
+                  <select name="branch" id="mybranch" style="font-size: 30px;">
+                      <option value="CS">CS</option>
+                      <option value="IT"  selected> IT</option>
+                      <option value="ENTC">ENTC</option>
+                      <option value="mech">MECH</option>
+                  </select>
+           </div>
+           <br>
+
+           <label style="font-size: 30px; color: brown;" for="gmail"> Gmail</label> 
+           <div>
+                 <input type="email" name="mygmail" id="gmail" style="font-size: 30px;" >
+           </div>
+           <br>
+
+           <label style="font-size: 30px; color: cadetblue;" for="dob">date_of birth</label>    
+           <div>
+               <input type="date" name="mydate" id="dob" style="font-size: 40px;">
+           </div>
+           <br>
+           <br>
+
+           <label style="font-size: 30px; color: coral;" for="mfo">   Gender</label>   
+          <div
+          style="font-size: 20px;">
+              Male<input type="radio"  name="myGender" id="mfo">  female<input type="radio"  name="myGender">  other<input type="radio"  name="myGender">
+          </div>
+          <br>
+         
+         
+  <section
+     style="font-size: 40px; left: 20px;">
+     <ul><li
+        style="color: crimson; background-color: white;"> write about yourself</li> 
+    </ul>  
+ <textarea name="text"  cols="60" rows="10" style="font-size: 30px;"></textarea>
+</section>
+           <div>
+               <span
+               style="font-size: 35px;">
+                   I filled all details correctly <input type="checkbox" checked >
+               </span>
+           </div>
+           <br>
+           <div>
+               <input type="submit" value="SUBMIT NOW"  style="font-size: 30px; color: brown;">
+               <br>
+               <br>
+               <input type="Reset" value="Reset NOW" style="font-size: 20px;">
+           </div>
+       </form>
+    </center>  
+    </main>
+</body>
+</html>
